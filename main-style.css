@@ -133,6 +133,28 @@ p.footer-text {
     margin:0 auto;
 }
 
+#ingredients {
+    padding: 0 30px 40px 0;
+    float:left;
+    width:25%;
+    margin-top:-38px;
+}
+
+.ingredients {
+   padding-top:25px;
+}
+
+#step-by-step {
+    line-height: 24px;
+    
+}
+
+.step-by-step {
+    padding:40px;
+    margin-left:20px;
+    
+}
+
 @media only screen and (max-width: 767px) {
     
     #content {  
