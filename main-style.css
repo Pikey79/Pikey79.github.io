@@ -5,6 +5,10 @@ p {
     font-size:0.8rem;
 }
 
+article, aside, footer, header, nav, section {
+    display: block;
+}
+
 h2,h3,h4,h5,h6 {
     font-size:2rem;
     color:#cc0033;
@@ -104,6 +108,12 @@ body {
   max-width: 290px;
 }
 
+.header h1 a {
+  text-decoration: none;
+  color:black;
+
+}
+
 #content {  
     margin:36px;
 }
@@ -131,6 +141,33 @@ p.footer-text {
     font-size:0.8rem;
     max-width:170px;
     margin:0 auto;
+}
+
+#ingredients {
+    padding: 0 30px 40px 0;
+    float:left;
+    width:25%;
+    margin-top:-38px;
+}
+
+.ingredients {
+   padding-top:25px;
+}
+
+#step-by-step {
+    line-height: 24px;
+    
+}
+
+.step-by-step {
+    padding:40px;
+    margin-left:20px;
+    
+}
+
+
+@media only screen and (max-width: 480px) {
+    .span_2_of_2, .span_1_of_2 { width: 100%; }
 }
 
 @media only screen and (max-width: 767px) {
