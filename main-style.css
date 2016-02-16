@@ -1,15 +1,33 @@
 /* Det här är external css,
 dvs css i en extern fil */
 
+p {
+    font-size:0.8rem;
+}
+
+h2,h3,h4,h5,h6 {
+    font-size:2rem;
+    color:#cc0033;
+    font-family: 'Courgette', cursive;
+    font-style: italic;
+    margin-bottom:-16px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
 body {
     background:#fdfdfd;
     margin-top: 0px;
     max-width:980px;
     margin:0 auto;
     background-image: url("http://i.imgur.com/l5Y9IRu.jpg");
+    font-family: 'Open Sans', sans-serif;
 }
 
-.container { 
+#container { 
     position:relative; 
     padding:0 0 0 0; 
     margin:0 auto;
@@ -23,46 +41,38 @@ body {
     width: 100%;;
 }
 
-#sidebar {
-    position:absolute;
-    top:0px; 
-    bottom:0; 
-    left:0;
-    width:180px;
-    
-}
-
 #header-menu {
     
-    padding:10px;
-    height:30px;
-    margin-top: -50px;
-    padding: 10px;
     float: right;
-    
+    height: 30px;
+    margin-right: -26px;
+    margin-top: -56px;
+    padding: 10px;
 }
 
 .menu-link-box {
     margin: 0 auto;
-    width: 200px;
+    width: 350px;
     list-style: none;
     
 }
 
 .menu-link a {
-    font-family:"Verdana", Geneva, sans-serif;
-    font-weight:700;
+    font-weight:600;
     text-transform:uppercase;
     text-decoration: none;
     color:#fff;
     float: left;
-    font-size: 20px;
-    margin-left: 20px;
-    -moz-border-radius: 3px 3px 0px 0px;
--webkit-border-radius: 3px 3px 0px 0px;
-border-radius: 3px 3px 0px 0px; 
-    background: red;
-    padding:10px;
+    font-size: 14px;
+    margin-left: -6px;
+    -moz-border-radius: 16px 0px 0px 0px;
+    -webkit-border-radius: 16px 0px 0px 0px;
+    border-radius: 16px 0px 0px 0px;
+    background:#e81b00;
+    padding:10px 30px 10px 30px;
+    border-left:3px solid #fdfdfd;
+    border-top:3px solid #fdfdfd;
+    letter-spacing:1px;
     
 }
 
@@ -71,31 +81,86 @@ border-radius: 3px 3px 0px 0px;
     
 }
 
-.sidebar-menu-header {
-    height:auto;
-    background:#e81923;
-    color:#fff;
-    padding:6px;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-    
-}
-
-#header { 
-    border-bottom: 3px solid red;
+.header { 
+    border-bottom: 3px solid #e81b00;
     height: 66px;
+    background:#fdfdfd;
     
 }
 
-#content { 
-    border:1px solid #ccc;  
-    margin:5px 0 5px 0;
-    padding:20px;
-    margin:20px;
+.header img {
+  float: left;
+  width: 100px;
+  height: 100px;
+  
 }
-#footer { 
-    border-top:1px solid #ccc; 
+
+.header h1 {
+  position: relative;
+  top: 18px;
+  left: 10px;
+  font-family: 'Courgette', cursive;
+  font-style: italic;
+  max-width: 290px;
+}
+
+#content {  
+    margin:36px;
+}
+
+aside {
+    float:right;
+    margin-left:20px;
+    border:2px solid #ddd;
+    padding:8px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+    
+}
+
+footer { 
+    border-top:1px solid #ccc;
+    background:#fdfdfd;
     height:20px;
     margin:5px 0 0 0;
     padding:20px;
+}
+
+p.footer-text {
+    font-size:0.8rem;
+    max-width:170px;
+    margin:0 auto;
+}
+
+@media only screen and (max-width: 767px) {
+    
+    #content {  
+    margin:10px;
+    
+    }
+    
+    aside {
+    float:right;
+    margin-left:20px;
+    
+    }
+    
+    .header { 
+    height: 140px;
+    
+    }
+
+}
+
+@media only screen and (max-width: 480px) {
+    
+    
+    aside {
+    float:right;
+    margin-left:0px;
+    
+    }
+    
+
 }
