@@ -33,7 +33,7 @@ li {
 ol li:before { 
     content: counter(item) "  "; 
     counter-increment: item;
-    color: red;
+    color: #999999;
     margin-right:20px;
     list-style-position: outside;
     margin-left: -2.1rem;
