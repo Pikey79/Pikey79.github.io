@@ -1,5 +1,8 @@
+/* Det här är external css,
+dvs css i en extern fil */
+
 p {
-    font-size:0.8rem;
+    font-size:0.9rem;
 }
 
 article, aside, footer, header, nav, section {
@@ -9,10 +12,38 @@ article, aside, footer, header, nav, section {
 h2,h3,h4,h5,h6 {
     font-size:2rem;
     color:#cc0033;
-    font-family: 'Poiret One', cursive;
-    font-style: italic;
+    font-family: 'Comfortaa', cursive;
     margin-bottom:-16px;
 }
+
+ol li {
+    margin-bottom:16px;
+
+}
+
+
+
+ol { 
+    counter-reset: item;
+    list-style-type: none;
+}
+li { 
+    display: block; 
+}
+ol li:before { 
+    content: counter(item) "  "; 
+    counter-increment: item;
+    color: red;
+    margin-right:20px;
+    list-style-position: outside;
+    margin-left: -2.1rem;
+    font-weight:700;
+    
+}
+
+
+
+
 
 img {
     width: 100%;
@@ -26,6 +57,7 @@ body {
     margin:0 auto;
     background-image: url("http://i.imgur.com/l5Y9IRu.jpg");
     font-family: 'Open Sans', sans-serif;
+    font-size:0.9rem;
 }
 
 #container { 
@@ -46,8 +78,8 @@ body {
     
     float: right;
     height: 30px;
-    margin-right: -26px;
-    margin-top: -56px;
+    margin-right: -41px;
+    margin-top: -55px;
     padding: 10px;
 }
 
@@ -74,6 +106,7 @@ body {
     border-left:3px solid #fdfdfd;
     border-top:3px solid #fdfdfd;
     letter-spacing:1px;
+    font-family: 'Comfortaa', cursive;
     
 }
 
@@ -100,14 +133,13 @@ body {
   position: relative;
   top: 18px;
   left: 10px;
-  font-family: 'Poiret One', cursive;
-  font-style: italic;
-  max-width: 290px;
+  font-family: 'Comfortaa', cursive;
+  max-width: 310px;
 }
 
 .header h1 a {
   text-decoration: none;
-  color:#000;
+  color:black;
 
 }
 
@@ -151,6 +183,10 @@ p.footer-text {
    padding-top:25px;
 }
 
+.ingredients ul li {
+   margin-top:16px;
+}
+
 #step-by-step {
     line-height: 24px;
     
@@ -162,14 +198,25 @@ p.footer-text {
     
 }
 
-<<<<<<< HEAD
-
-@media only screen and (max-width: 480px) {
-    .span_2_of_2, .span_1_of_2 { width: 100%; }
+.info-box {
+    background-color: #57c7b3;
+    border-radius: 5px;
+    margin: 0 0 30px 0;
+    padding: 4px;
 }
 
-=======
->>>>>>> origin/master
+.info-box h2 {
+    border: 2px solid #fff;
+    color: #fff;
+    font-size: 1.2rem;
+    font-style: italic;
+    font-weight: 700;
+    margin: 0 auto;
+    padding: 1rem;
+    text-align: center;
+    text-shadow: 1px 1px 0 #777;
+}
+
 @media only screen and (max-width: 767px) {
     
     #content {  
