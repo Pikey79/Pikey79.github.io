@@ -251,5 +251,16 @@ p.footer-text {
     
     }
     
+    aside {
+    
+    margin-left:20px;
+    border:2px solid #ddd;
+    padding:8px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+    
+}
+    
 
 }
