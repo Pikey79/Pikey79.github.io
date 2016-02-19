@@ -243,7 +243,7 @@ p.footer-text {
     
     
     aside {
-    float:right;
+    float:left;
     margin-left:0px;
     
     }
@@ -254,16 +254,12 @@ p.footer-text {
     
     }
     
-    aside {
+    .header { 
+    height: 140px;
     
-    margin-left:0px;
-    border:2px solid #ddd;
-    padding:8px;
-    -moz-border-radius: 5px 5px 5px 5px;
-    -webkit-border-radius: 5px 5px 5px 5px;
-    border-radius: 5px 5px 5px 5px;
+    }
     
-}
+   
     
 
 }
