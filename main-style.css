@@ -26,7 +26,7 @@ li {
     display: block; 
 }
 
-// css kod för att ändra färg, storlek, och positionering på siffror i ol lista, tagen från en guide på nätet... //
+
 
 ol li:before { 
     content: counter(item) "  "; 
