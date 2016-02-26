@@ -351,4 +351,14 @@ p.footer-text {
     
     }
     
+    #recept {
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    font-style: italic;
+    margin-top: 50px;
+    min-width: 284px;
+    padding: 10px;
+    
+}
+    
 }
