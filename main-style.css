@@ -142,6 +142,11 @@ body {
     margin:36px;
 }
 
+#source {
+    font-style:0.8rem;
+    color:#999;
+}
+
 aside {
     float:right;
     margin-left:20px;
