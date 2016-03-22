@@ -269,12 +269,12 @@ p.footer-text {
 #loading {
     display: none;
     position: absolute;
-    background-color: white;
+    background-color: transparent;
     padding-left: 15%;
     padding-right: 15%;
     z-index: 11;
     width: 2%;
-    float:right;
+    
     
 }
 
