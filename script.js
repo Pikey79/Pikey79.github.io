@@ -18,10 +18,4 @@ function changePortions() {
         }
     }
 }
-function afterLoad() {
-    if (typeof (Storage) !== "undefined") {
-        if(getMyId(id) == null){
-            document.getElementById(buttonId[2]).checked = true;
-        }else{
-        getMyId(id).checked = true;
-        changePortions();
+
