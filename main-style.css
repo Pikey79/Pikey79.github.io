@@ -257,7 +257,7 @@ p.footer-text {
     width: 0%;
     min-width: 11rem;
     max-height: 10rem;
-    margin-top: 0%;
+    margin-top: -2%;
     margin-left: 0%;
     margin-bottom: 2%;
     border:2px solid #ddd;
