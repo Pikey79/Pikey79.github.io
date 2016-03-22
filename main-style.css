@@ -93,8 +93,6 @@ body {
     float: left;
     font-size: 14px;
     margin-left: -6px;
-    -moz-border-radius: 16px 0px 0px 0px;
-    -webkit-border-radius: 16px 0px 0px 0px;
     border-radius: 16px 0px 0px 0px;
     background:#e81b00;
     padding:10px 30px 10px 30px;
@@ -152,8 +150,6 @@ aside {
     margin-left:20px;
     border:2px solid #ddd;
     padding:8px;
-    -moz-border-radius: 5px 5px 5px 5px;
-    -webkit-border-radius: 5px 5px 5px 5px;
     border-radius: 5px 5px 5px 5px;
     
 }
@@ -178,8 +174,6 @@ p.footer-text {
     background-color: #57c7b3;
     color:#fff;
     padding:10px;
-    -moz-border-radius: 5px 5px 5px 5px;
-    -webkit-border-radius: 5px 5px 5px 5px;
     border-radius: 5px 5px 5px 5px;
 }
 
