@@ -237,23 +237,23 @@ p.footer-text {
     text-shadow: 1px 1px 0 #777;
 }
 
-.star{
+.star {
     width: 8%;
     -webkit-filter: grayscale(100%); 
     float: left;
 }
 
-#votes{
+#votes {
     padding-left: 30%;
     margin-bottom: 0%;
     padding-top: 2%;
 }
-#rating{
+#rating {
     margin-top: 1%;
     margin-bottom: 0%;
 }
 
-#star-rating{
+#star-rating {
     font-size: 100%;
     width: 40%;
     min-width: 15rem;
@@ -266,7 +266,7 @@ p.footer-text {
     padding:20px;
 }
 
-#loading{
+#loading {
     display: none;
     position: absolute;
     background-color: white;
