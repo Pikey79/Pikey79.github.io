@@ -253,17 +253,17 @@ p.footer-text {
     margin-bottom: 0%;
 }
 
-#aboutIt{
+#star-rating{
     font-size: 100%;
-    font-style: normal;
-    font-family: "Times New Roman", Times, serif;
-    float: right;
     width: 40%;
     min-width: 15rem;
     max-height: 10rem;
     margin-top: -2%;
     margin-left: 60%;
     margin-bottom: 2%;
+    border:2px solid #ddd;
+    border-radius:10px;
+    padding:20px;
 }
 
 #loading{
