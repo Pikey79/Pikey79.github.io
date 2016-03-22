@@ -273,7 +273,8 @@ p.footer-text {
     padding-left: 15%;
     padding-right: 15%;
     z-index: 11;
-    width: 3%;
+    width: 2%;
+    float:right;
     
 }
 
