@@ -270,7 +270,6 @@ p.footer-text {
     display: none;
     position: absolute;
     background-color: white;
-    width: 10%;
     padding-left: 15%;
     padding-right: 15%;
     z-index: 11;
