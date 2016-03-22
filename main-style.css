@@ -263,7 +263,7 @@ p.footer-text {
     margin-bottom: 2%;
     border:2px solid #ddd;
     border-radius:10px;
-    padding:20px;
+    padding:10px;
 }
 
 #loading {
@@ -274,7 +274,8 @@ p.footer-text {
     padding-right: 15%;
     z-index: 11;
     width: 3%;
-    margin-left:60px;
+    margin-left:80px;
+    margin-top:15px;
     
     
 }
